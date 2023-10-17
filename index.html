@@ -14,281 +14,487 @@
 </head>
 <body>
 <section class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="header_logo"><a href="/"><img src="images/logo.png" alt="Лого"></a></div>
-            </div>
-            <div class="col-lg-2 ">
-                <div class="header__stats">
-                    <div class="header-text"><a href="/geografiya-stroitelstva.html"> с 2004 года построено<br>более 185 домов </a></div>
-                        <div class="header-fav"><a href="/izbrannoe.html">
-						<span class="optima-fav-block">
-							<img src="images/star.svg" alt="В избранноe"> В избранном <span id="optima-fav-count">0</span>
-						</span>
-					</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="header__contacts">
-                    <div class="header__phone"><a href="tel:+78124260999">+ 7 (812) 426-09-99</a></div>
-                    <div class="header__phone"><a href="tel:+78129471956">+ 7 (812) 947-19-56</a></div>
-                    <div class="header__time">Пн-Пт с 9:00 - 18:00</div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="header-search">
-                    <form action="/search.html">
-                        <input type="text" name="search" class="search__field" placeholder="Поиск по сайту">
-                        <button class="search__btn">
-                            <i class="icon icon-search pos-center"></i>
-                        </button>
-                        <input type="hidden" name="neiros_visit">
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <button class="callback js-popup-link" data-href=".popup-callback" >Связаться со специалистом</button>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="naw-wr">
-    <div class="container">
-        <ul class="nav">
-		<li class="col-lg-2 nav__item nav__item_sec">
-			<a href="/"><span class="nav__link">Строительство</span></a>
-			<ul class="nav-sec nav-sec-level1">
-				<li class="">
-					<a class="nav-sec__link" href="/dom-iz-kirpicha.html">Кирпичные дома</a>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="header_logo">
+						<a href="/"><img alt="Лого" src="images/logo.png"></a>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="header__stats">
+						<div class="header-text">
+							<a href="/geografiya-stroitelstva.html">с 2004 года построено<br>
+							более 185 домов</a>
+						</div>
+						<div class="header-fav">
+							<a href="/izbrannoe.html"><span class="optima-fav-block"><img alt="В избранноe" src="images/star.svg"> В избранном <span id="optima-fav-count">0</span></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="header__contacts">
+						<div class="header__phone">
+							<a href="tel:+78124260999">+ 7 (812) 426-09-99</a>
+						</div>
+						<div class="header__phone">
+							<a href="tel:+78129471956">+ 7 (812) 947-19-56</a>
+						</div>
+						<div class="header__time">
+							Пн-Пт с 9:00 - 18:00
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="header-search">
+						<form action="/search.html">
+							<input class="search__field" name="search" placeholder="Поиск по сайту" type="text"> <button class="search__btn"><i class="icon icon-search pos-center"></i></button> <input name="neiros_visit" type="hidden">
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<button class="callback js-popup-link" data-href=".popup-callback">Связаться со специалистом</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="naw-wr">
+		<div class="container">
+			<ul class="nav">
+				<li class="col-lg-2 nav__item nav__item_sec">
+					<a href="/"><span class="nav__link">Строительство</span></a>
+					<ul class="nav-sec nav-sec-level1">
+						<li class="">
+							<a class="nav-sec__link" href="/dom-iz-kirpicha.html">Кирпичные дома</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/dom-iz-gazobetona.html">Дома из газобетона</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/stroitelstvo-kottedgei/monolitnye-doma.html">Монолитные дома</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link optima-malina" href="/energoeffektivnyy-house.html">Энергоэффективный дом</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/modulnie-doma.html">Модульные дома</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/fundament-doma.html">Фундамент</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/otdelka.html">Дизайн интерьера и современный ремонт</a>
+						</li>
+					</ul>
 				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/dom-iz-gazobetona.html">Дома из газобетона</a>
+				<li class="col-lg-2 nav__item nav__item_sec">
+					<a href="#"><span class="nav__link">Проектирование</span></a>
+					<ul class="nav-sec nav-sec-level1">
+						<li class="">
+							<a class="nav-sec__link" href="/konstruktor-doma.html">Конструктор вашего дома</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/proektirovanie.html">Проектирование под ключ</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link optima-malina" href="/proekti-domov.html">Проекты домов</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/proekti-domov/besplatnie-proekti.html">Бесплатные проекты</a>
+						</li>
+					</ul>
 				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/stroitelstvo-kottedgei/monolitnye-doma.html">Монолитные дома</a>
+				<li class="col-lg-2 nav__item nav__item_sec">
+					<a href="#"><span class="nav__link">Наши работы</span></a>
+					<ul class="nav-sec nav-sec-level1">
+						<li class="">
+							<a class="nav-sec__link" href="/geografiya-stroitelstva.html">Построенные дома</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link optima-malina" href="/otzivi-klientov-o-kompanii.html">Отзывы</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link optima-malina" href="/ekskursii.html">Посетить объекты</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/fotogalerry.html">Фото и видео</a>
+						</li>
+					</ul>
 				</li>
-				<li class="">
-					<a class="nav-sec__link optima-malina" href="/energoeffektivnyy-house.html">Энергоэффективный дом</a>
+				<li class="col-lg-2 nav__item nav__item_sec">
+					<a href="#"><span class="nav__link">Услуги и цены</span></a>
+					<ul class="nav-sec nav-sec-level1">
+						<li class="">
+							<a class="nav-sec__link" href="/tseny.html">Цены</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/servis/kredit.html">Ипотека</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/servis/it-ipoteka.html">ИТ ипотека</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/kalk-stroy.html">Онлайн калькулятор</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/injenernie-seti/engineering-systems.html">Инженерные системы дома</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/landshaftnyy-design/order-of-the-work-land-design.html">Ландшафт и благоустройство участка</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link optima-malina" href="/informatsiya/dom-poleznyj-dlya-zdorovya.html">Дом, полезный для здоровья</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link optima-malina" href="/servis-polnogo-cikla.html">Сервис полного цикла</a>
+						</li>
+					</ul>
 				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/modulnie-doma.html">Модульные дома</a>
+				<li class="col-lg-2 nav__item nav__item_sec">
+					<a href="/about-company.html"><span class="nav__link">О компании</span></a>
+					<ul class="nav-sec nav-sec-level1">
+						<li class="">
+							<a class="nav-sec__link" href="/about-company.html">Информация о компании</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/about-company/rekvizity.html">Реквизиты</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/about-company/vopros-otvet.html">Вопрос-ответ</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/kachestvo.html">Гарантия</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link" href="/allnews.html">Новости</a>
+						</li>
+						<li class="">
+							<a class="nav-sec__link optima-malina" href="/sinergidom.pdf" rel="noopener noreferrer" target="_blank">Скачать Презентацию (PDF)</a>
+						</li>
+					</ul>
 				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/fundament-doma.html">Фундамент</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/otdelka.html">Дизайн интерьера и современный ремонт</a>
+				<li class="col-lg-2 nav__item">
+					<a class="nav__link" href="/contacts.html">Контакты</a>
 				</li>
 			</ul>
-		</li>
-		<li class="col-lg-2 nav__item nav__item_sec">
-			<a href="#"><span class="nav__link">Проектирование</span></a>
-			<ul class="nav-sec nav-sec-level1">
-				<li class="">
-					<a class="nav-sec__link" href="/konstruktor-doma.html">Конструктор вашего дома</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/proektirovanie.html">Проектирование под ключ</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link optima-malina" href="/proekti-domov.html">Проекты домов</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/proekti-domov/besplatnie-proekti.html">Бесплатные проекты</a>
-				</li>
-			</ul>
-		</li>
-		<li class="col-lg-2 nav__item nav__item_sec">
-			<a href="#"><span class="nav__link">Наши работы</span></a>
-			<ul class="nav-sec nav-sec-level1">
-				<li class="">
-					<a class="nav-sec__link" href="/geografiya-stroitelstva.html">Построенные дома</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link optima-malina" href="/otzivi-klientov-o-kompanii.html">Отзывы</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link optima-malina" href="/ekskursii.html">Посетить объекты</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/fotogalerry.html">Фото и видео</a>
-				</li>
-			</ul>
-		</li>
-		<li class="col-lg-2 nav__item nav__item_sec">
-			<a href="#"><span class="nav__link">Услуги и цены</span></a>
-			<ul class="nav-sec nav-sec-level1">
-				<li class="">
-					<a class="nav-sec__link" href="/tseny.html">Цены</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/servis/kredit.html">Ипотека</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/servis/it-ipoteka.html">ИТ ипотека</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/kalk-stroy.html">Онлайн калькулятор</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/injenernie-seti/engineering-systems.html">Инженерные системы дома</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/landshaftnyy-design/order-of-the-work-land-design.html">Ландшафт и благоустройство участка</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link optima-malina" href="/informatsiya/dom-poleznyj-dlya-zdorovya.html">Дом, полезный для здоровья</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link optima-malina" href="/servis-polnogo-cikla.html">Сервис полного цикла</a>
-				</li>
-			</ul>
-		</li>
-		<li class="col-lg-2 nav__item nav__item_sec">
-			<a href="/about-company.html"><span class="nav__link">О компании</span></a>
-			<ul class="nav-sec nav-sec-level1">
-				<li class="">
-					<a class="nav-sec__link" href="/about-company.html">Информация о компании</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/about-company/rekvizity.html">Реквизиты</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/about-company/vopros-otvet.html">Вопрос-ответ</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/kachestvo.html">Гарантия</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link" href="/allnews.html">Новости</a>
-				</li>
-				<li class="">
-					<a class="nav-sec__link optima-malina" href="/sinergidom.pdf" rel="noopener noreferrer" target="_blank">Скачать Презентацию (PDF)</a>
-				</li>
-			</ul>
-		</li>
-		<li class="col-lg-2 nav__item">
-			<a class="nav__link" href="/contacts.html">Контакты</a>
-		</li>
-	</ul>
-    </div>
-</section>
-<section class="main-slider">
-    <div class="product-card__img product-slider">
-                                            <div class="product-slider__swiper swiper">
-                                                <div class="swiper-wrapper">
-                                                    <div class="product-slider__slide swiper-slide" >
-                                                           <div class="slide-bg" style="background: url(https://www.spb-optima.ru/images/page-banners/bg-project-tavis.jpg)"></div>
-                                                            <div class="container">
-                                                               <div class="slide-content">
-                                                                <div class="main-slide__title">
-                                                                    <h1>Строительство загородных домов в <nobr>Санкт-Петербурге</nobr></h1>
-                                                                </div>
-                                                                <div class="m-s-advantages">
-                                                                    <ul class="slide-list">
-                                                                       <li>с <span>50</span> летней гарантией</li>
-                                                                       <li>с энергетическим паспортом</li>
-                                                                       <li>с экологическим заключением</li>
-                                                                        
-                                                                    </ul>
-                                                                    <div class="slide-price">
-                                                                        <a href="/proektirovanie.html">
-                                                                            <p class="price-sale">45 000P</p>
-                                                                            <p class="price-name"><strong>индивидуальный</strong> проект дома</p>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="slide-btn-wrap">
-                                                                    <div class="slide-btn-item"><a class="pink-btn slide-zakaz-btn" href="/kalk-stroy.html">Заказать расчет строительства</a></div>
-                                                                
-                                                                    <div class="slide-btn-item"><a class="lx-blue-btn slide-kontstr" href="/konstruktor-doma.html">Конструктор вашего дома</a></div>
-                                                                </div>
-                                                            </div>
-                                                            </div>
-                                                            <!--<picture><img class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-interior-design.jpg" alt=""></picture>-->
-                                                                                           
-                                                    </div>
-                                                    <div class="product-slider__slide swiper-slide">
-                                                        
-                                                            <picture><img class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-tavis.jpg" alt=""></picture>
-                                                                                             
-                                                    </div>
-                                                    <div class="product-slider__slide swiper-slide">
-                                                        
-                                                            <picture><img class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-a22-v1.jpg" alt=""></picture>
-                                                                                          
-                                                    </div>
-                                                    <div class="product-slider__slide swiper-slide">
-                                                        
-                                                            <picture><img class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-frenk.jpg" alt=""></picture>
-                                                                                           
-                                                    </div>
-                                                    <div class="product-slider__slide swiper-slide">
-                                                        
-                                                            <picture><img class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-tavis.jpg" alt=""></picture>
-                                                                                           
-                                                    </div>                                          
-                                                </div> 
-                                            </div>
-                                            <div class="product-slider__thumbs product-thumbs">
-                                                <div class="product-thumbs__swiper swiper" >
-                                                    <div class="swiper-wrapper">
-                                                        <div class="product-thumbs__slide swiper-slide">
-                                                            <div class="product-thumbs__img-wrap">
-                                                                <picture><img class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-1-new.jpg" alt=""></picture>
-                                                            </div>
-                                                        </div>  
-                                                        <div class="product-thumbs__slide swiper-slide">
-                                                            <div class="product-thumbs__img-wrap">
-                                                                <picture><img class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-2-new.jpg" alt=""></picture>
-                                                            </div>
-                                                        </div>  
-                                                        <div class="product-thumbs__slide swiper-slide">
-                                                            <div class="product-thumbs__img-wrap">
-                                                                <picture><img class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-3-new.jpg" alt=""></picture>
-                                                            </div>
-                                                        </div>  
-                                                        <div class="product-thumbs__slide swiper-slide">
-                                                            <div class="product-thumbs__img-wrap">
-                                                                <picture><img class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-4-new.jpg" alt=""></picture>
-                                                            </div>
-                                                        </div>  
-                                                    </div>
-                                                </div>
-                                            </div>                            
-                                        </div>
-    
-</section>
-<section class="under_slide">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="under-slider">
-                    <div class="under_slider__swiper swiper">
-                          <div class="swiper-wrapper">
-                              <div class="under_slider__slide swiper-slide" >
-                                  <img src="https://www.spb-optima.ru/images/hotdeals/common-family-housewarming.jpg" alt="">
-                                  <div class="under_slide_text">
-                                      <h4>В НОВОМ ГОДУ</h4>
-                                      <p>В НОВЫЙ ДОМ!</p>
-                                  </div>
-                              </div>
-                              <div class="under_slider__slide swiper-slide" >
-                                  <img src="https://www.spb-optima.ru/images/hotdeals/promo-bavaria.jpg" alt="">
-                                  <div class="under_slide_text">
-                                      <h4>Двухэтажный дом 160 м2</h4>
-                                      <p>ЗА 12 МЛН. ₽ ОТ 3%</p>
-                                  </div>
-                              </div>   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+		</div>
+	</section>
+	<section class="main-slider">
+		<div class="product-card__img product-slider">
+			<div class="product-slider__swiper swiper">
+				<div class="swiper-wrapper">
+					<div class="product-slider__slide swiper-slide">
+						<div class="slide-bg" style="background: url(https://www.spb-optima.ru/images/page-banners/bg-project-tavis.jpg)"></div>
+						<div class="container">
+							<div class="slide-content">
+								<div class="main-slide__title">
+									<h1>Строительство загородных домов в <nobr>Санкт-Петербурге</nobr></h1>
+								</div>
+								<div class="m-s-advantages">
+									<ul class="slide-list">
+										<li>с <span>50</span> летней гарантией</li>
+										<li>с энергетическим паспортом</li>
+										<li>с экологическим заключением</li>
+									</ul>
+									<div class="slide-price">
+										<a href="/proektirovanie.html">
+										<p class="price-sale">45 000P</p>
+										<p class="price-name"><strong>индивидуальный</strong> проект дома</p></a>
+									</div>
+								</div>
+								<div class="slide-btn-wrap">
+									<div class="slide-btn-item">
+										<a class="pink-btn slide-zakaz-btn" href="/kalk-stroy.html">Заказать расчет строительства</a>
+									</div>
+									<div class="slide-btn-item">
+										<a class="lx-blue-btn slide-kontstr" href="/konstruktor-doma.html">Конструктор вашего дома</a>
+									</div>
+								</div>
+							</div>
+						</div><!--<picture><img class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-interior-design.jpg" alt=""></picture>-->
+					</div>
+					<div class="product-slider__slide swiper-slide">
+						<picture><img alt="" class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-tavis.jpg"></picture>
+					</div>
+					<div class="product-slider__slide swiper-slide">
+						<picture><img alt="" class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-a22-v1.jpg"></picture>
+					</div>
+					<div class="product-slider__slide swiper-slide">
+						<picture><img alt="" class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-frenk.jpg"></picture>
+					</div>
+					<div class="product-slider__slide swiper-slide">
+						<picture><img alt="" class="product-slider__img" src="https://www.spb-optima.ru/images/page-banners/bg-project-tavis.jpg"></picture>
+					</div>
+				</div>
+			</div>
+			<div class="product-slider__thumbs product-thumbs">
+				<div class="product-thumbs__swiper swiper">
+					<div class="swiper-wrapper">
+						<div class="product-thumbs__slide swiper-slide">
+							<div class="product-thumbs__img-wrap">
+								<picture><img alt="" class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-1-new.jpg"></picture>
+							</div>
+						</div>
+						<div class="product-thumbs__slide swiper-slide">
+							<div class="product-thumbs__img-wrap">
+								<picture><img alt="" class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-2-new.jpg"></picture>
+							</div>
+						</div>
+						<div class="product-thumbs__slide swiper-slide">
+							<div class="product-thumbs__img-wrap">
+								<picture><img alt="" class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-3-new.jpg"></picture>
+							</div>
+						</div>
+						<div class="product-thumbs__slide swiper-slide">
+							<div class="product-thumbs__img-wrap">
+								<picture><img alt="" class="product-thumbs__img" src="https://www.spb-optima.ru/images/main-slider/preview-4-new.jpg"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="under_slide">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="under_slider__swiper swiper">
+						<div class="swiper-wrapper">
+							<div class="under_slider__slide swiper-slide">
+								<a href="/promo-kredit-bavaria.html">
+								<img alt="" src="https://www.spb-optima.ru/images/hotdeals/common-family-housewarming.jpg">
+								<div class="under_slide_text">
+									<h4>В НОВОМ ГОДУ</h4>
+									<p>В НОВЫЙ ДОМ!</p>
+								</div>
+								</a>
+							</div>
+							<div class="under_slider__slide swiper-slide">
+								<a href="/promo-kredit-bavaria.html">
+								<img alt="" src="https://www.spb-optima.ru/images/hotdeals/promo-bavaria.jpg">
+								<div class="under_slide_text">
+									<h4>Двухэтажный дом 160 м2</h4>
+									<p>ЗА 12 МЛН. ₽ ОТ 3%</p>
+								</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="under_slider__swiper swiper">
+						<div class="swiper-wrapper">
+							<div class="under_slider__slide swiper-slide">
+								<a href="/proektirovanie.html">
+								<img alt="" src="https://www.spb-optima.ru/images/hotdeals/common-hand-design-draft.jpg">
+								<div class="under_slide_text">
+									<h4>Индивидуальный проект дома</h4>
+									<p>45000 ₽</p>
+								</div>
+								</a>
+							</div>
+							<div class="under_slider__slide swiper-slide">
+								<a href="/proektirovanie.html">
+								<img alt="" src="https://www.spb-optima.ru/images/hotdeals/common-house-blueprints-nature.jpg">
+								<div class="under_slide_text">
+									<h4>Индивидуальный проект дома</h4>
+									<p>45000 ₽</p>
+								</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="under_slider__swiper swiper">
+						<div class="swiper-wrapper">
+							<div class="under_slider__slide swiper-slide">
+								<a href="/promo-kredit-otto.html"><img alt="" src="https://www.spb-optima.ru/images/hotdeals/promo-otto.jpg">
+								<div class="under_slide_text">
+									<h4>Двухэтажный дом 100 м2</h4>
+									<p>ЗА 9 МЛН. ₽ ОТ 3%</p>
+									<p>26,100 / МЕС.</p>
+								</div>
+								</a>
+							</div>
+							<div class="under_slider__slide swiper-slide">
+								<a href="/promo-kredit-otto.html"><img alt="" src="https://www.spb-optima.ru//images/hotdeals/promo-otto-interior.jpg">
+								<div class="under_slide_text">
+									<h4>Срок строительства — 4 месяца</h4>
+									<p>ПОД ЧИСТОВУЮ ОТДЕЛКУ</p>
+								</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="under_slider__swiper swiper">
+						<div class="swiper-wrapper">
+							<div class="under_slider__slide swiper-slide">
+								<a href="/servis/kredit.html"><img alt="" src="https://www.spb-optima.ru/images/hotdeals/dom-rf-sofa.jpg">
+								<div class="under_slide_text">
+									<h4>Ипотека от 0,1%</h4>
+									<p>ПОСТРОИТЬ ДОМ ПРОСТО</p>
+									
+								</div>
+								</a>
+							</div>
+							<div class="under_slider__slide swiper-slide">
+								<a href="/servis/kredit.html"><img alt="" src="https://www.spb-optima.ru/images/hotdeals/dom-rf-lady-cat.jpg">
+								<div class="under_slide_text">
+									<h4>Ипотечный кредит</h4>
+									<p>на особых условиях банка «Дом. РФ»</p>
+								</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="build">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-lg-3">
+	                <div class="build-video"><video src="images/main-intro.mp4" controls="controls" poster="https://www.spb-optima.ru/video/main-intro-preview.jpg"></video></div>
+	            </div>
+	            <div class="col-lg-9">
+	                <div class="build-text">
+	                    <ul>
+                            <li>Мы строим по индивидуальным проектам (проект входит в стоимость) с 2004 года.</li>
+                            <li>Тёплый стандарт позволяет сделать загородный дом в два раза теплее, без увеличения стоимости строительства.</li>
+                            <li>Гарантия на строительство по нашему проекту составляет <strong>50 лет</strong>.</li>
+                        </ul>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="row pad-30">
+	            <div class="col-lg-3">
+	                <div class="build-img-item">
+	                    <a href="/energoeffektivnyy-house.html"><img src="https://www.spb-optima.ru/images/pat31.jpg" alt=""></a>
+	                   <a class="build-item-link" href="/energoeffektivnyy-house.html">
+                        <div class="build-item-text">
+	                        Энергосберегающий дом
+	                    </div>
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="col-lg-3">
+	                <div class="build-img-item">
+	                    <a href="/dom-iz-kirpicha.html"><img src="https://www.spb-optima.ru/images/kirglav.jpg" alt=""></a>
+	                   <a class="build-item-link" href="/dom-iz-kirpicha.html">
+                        <div class="build-item-text">
+	                        Из кирпича
+	                    </div>
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="col-lg-3">
+	                <div class="build-img-item">
+	                    <a href="/stroitelstvo-kottedgei/monolitnye-doma.html"><img src="https://www.spb-optima.ru/images/gbglavmon.jpg" alt=""></a>
+	                   <a  class="build-item-link" href="/stroitelstvo-kottedgei/monolitnye-doma.html">
+                        <div class="build-item-text">
+	                        Монолитный
+	                    </div>
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="col-lg-3">
+	                <div class="build-img-item">
+	                    <a href="/dom-iz-gazobetona.html"><img src="https://www.spb-optima.ru/images/gbglav.jpg" alt=""></a>
+	                   <a class="build-item-link" href="/dom-iz-gazobetona.html">
+                        <div class="build-item-text">
+	                        Из газобетона
+	                    </div>
+	                    </a>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="row pad-60">
+	            <div class="col-lg-4">
+	                <div class="adv-item">
+	                    <div class="adv-img icon-why-4"></div>
+	                    <div class="adv-text">
+                            <p class="adv-title">Проектирование "под ключ"</p>
+                            <p class="adv-desc">
+				                Полный пакет строительной документации вашего дома + <span>раздел энергосбережения "Passive House" в подарок</span>.
+                            </p>
+	                    </div>
+	                </div>
+	            </div>
+	            
+	            <div class="col-lg-4">
+	                <div class="adv-item">
+	                    <div class="adv-img icon-why-1"></div>
+	                    <div class="adv-text">
+                            <p class="adv-title">Опытные специалисты</p>
+                            <p class="adv-desc">
+                                
+				Все рабочие строители, архитекторы и инженеры, работают на постоянной основе c большим <span>опытом строительства энергосберегающих домов </span>под ключ.
+                            </p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-4">
+	                <div class="adv-item">
+	                    <div class="adv-img icon-why-3"></div>
+	                    <div class="adv-text">
+                            <p class="adv-title">Подробная и открытая смета</p>
+                            <p class="adv-desc">
+				У нас понятная ценовая политика, <span>подробный расчёт, в котором легко разобраться</span>.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-4">
+	                <div class="adv-item">
+	                    <div class="adv-img icon-why-2"></div>
+	                    <div class="adv-text">
+                            <p class="adv-title">Посмотрите как мы строим</p>
+                            <p class="adv-desc">Посетите наши стройки на разных стадиях работы. </p>
+				<p class="adv-desc">Получите <span>ответы на всё вопросы</span></p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-4">
+	                <div class="adv-item">
+	                    <div class="adv-img icon-why-5"></div>
+	                    <div class="adv-text">
+                            <p class="adv-title">Гарантия <span>50</span> лет</p>
+                            <p class="adv-desc">Строгое соблюдение гарантийных обязательств.</p> 
+                            <p class="adv-desc"><span>Энергетический паспорт</span> подтверждает качество и долговечность дома.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-4">
+	                <div class="adv-item">
+	                    <div class="adv-img icon-why-6"></div>
+	                    <div class="adv-text">
+                            <p class="adv-title">Система контроля качества</p>
+                            <p class="adv-desc">Технический и авторский надзор.</p>
+                            <p class="adv-desc"><span>Тесты на герметичность и тепловизионный контроль</span>, помогают избежать даже незначительных дефектов.</p>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <div class="col-lg-4">
+	                <div class="adv-video">
+	                    <video autoplay muted src="images/spb-optima--kirpich-256x256.mp4"></video>
+	                </div>
+	            </div>
+	            <div class="col-lg-4">
+	                <div class="adv-video"><video autoplay muted src="images/spb-optima--gas-256x256.mp4"></video></div>
+	            </div>
+	            <div class="col-lg-4">
+	                <div class="adv-video"><video autoplay muted src="images/spb-optima--krishi-256x256.mp4" autoplay loop></video></div>
+	            </div>
+	            
+	        </div>
+	    </div>
+	</section>
 <script src="libs/jquery.min.js"></script>
 <script src="libs/fancybox.min.js"></script>
 <script src="libs/swiper-bundle.min.js"></script>

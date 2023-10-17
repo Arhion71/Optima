@@ -14,13 +14,13 @@ $(document).ready(function () {
       swiper: swiperProductThumbs,
     },
   });
-  const swiperUnderSlide = new Swiper(".under_slider__slide", {
-    slidesPerView: 2,
+  const swiperUnderSlide = new Swiper(".under_slider__swiper", {
+    slidesPerView: 1,
     draggable: true,
     loop: true,
     effect: "fade",
     autoplay: {
-      delay: 3000,
+      delay: 9000,
       disableOnInteraction: false,
     },
   });
