@@ -3,6 +3,8 @@ $(document).ready(function () {
   const swiperProductThumbs = new Swiper(".product-thumbs__swiper", {
     slidesPerView: "auto",
     spaceBetween: 9,
+    mousewheel: false,
+    keyboard: false,
   });
 
   const swiperProduct = new Swiper(".product-slider__swiper", {
@@ -10,6 +12,16 @@ $(document).ready(function () {
     draggable: true,
     thumbs: {
       swiper: swiperProductThumbs,
+    },
+  });
+  const swiperUnderSlide = new Swiper(".under_slider__slide", {
+    slidesPerView: 2,
+    draggable: true,
+    loop: true,
+    effect: "fade",
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
     },
   });
 });

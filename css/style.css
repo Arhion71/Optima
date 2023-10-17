@@ -248,7 +248,7 @@ section {
   position: absolute;
   top: 30px;
   */
-  padding: 40px 0;
+  padding: 50px 0;
   color: #fff;
   width: 50%;
 }
@@ -321,4 +321,10 @@ section {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.product-thumbs__swiper {
+  overflow: initial;
+}
+.under_slide {
+  background: linear-gradient(to top, #fff, #e8f0f5);
 }
