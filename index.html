@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="libs/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="libs/fancybox.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dd.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -817,27 +818,385 @@
                 </div>
                 <div class="filter__input">
                     <p class="filter_title">Этажность</p>
-                    <div class="select">
-                <p class="select__selected" data-filter-name="floors">Все</p>
-                <div class="select__list">
-                    <p class="select__item" data-id="0">Все</p>
-                                            <p class="select__item" data-id="2">1 этаж</p>
-                                            <p class="select__item" data-id="3">2 этажа</p>
-                                            <p class="select__item" data-id="4">3 этажа</p>
-                                            <p class="select__item" data-id="5">С мансардой</p>
-                                    </div><!--select__list-->
-
-            </div>
+                    <select is="ms-dropdown" id="floor" name="floor">
+                        <optgroup label="all">
+                          <option>Все</option>
+                          <option>1 этаж</option>
+                          <option>2 этажа</option>
+                          <option>3 этажа</option>
+                          <option>С мансардой</option>
+                        </optgroup>
+                      </select>
                 </div>
+                <div class="filter__input">
+                    <p class="filter_title">Особенности</p>
+                    <select is="ms-dropdown" id="floor" name="floor">
+                        <optgroup label="all">
+                          <option>Все</option>
+                          <option>Балкон</option>
+                          <option>Бассейн</option>
+                          <option>Второй свет</option>
+                          <option>С цокольным</option>
+                          <option>Терраса</option>
+                          <option>Сауна</option>
+                          <option>Эркер</option>
+                        </optgroup>
+                      </select>
+                </div>
+                <div class="filter__input">
+                    <p class="filter_title">Комнат</p>
+                    <select is="ms-dropdown" id="floor" name="floor">
+                        <optgroup label="all">
+                          <option>Все</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                        </optgroup>
+                      </select>
+                </div>
+	        </div>
+	        <div class="sorting">
+	            <div class="sort">
+                    <span class="sort__title">Сортировать:</span>
+                    <div class="sort__list">
+                        <span class="sort__item" data-sort="popular">По популярности</span>
+                        <span class="sort__item sort__item_from active" data-sort="date">По новизне</span>
+                    </div><!--sort__list-->
+
+                </div>
+	        </div>
+	        <div class="row catalog-wrapper">
+	            <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item">
+                    <div class="product-img">
+                    <a href="/proekti-domov/proekt-konor.html">
+                        <img src="https://www.spb-optima.ru/media/k2/items/cache/0ef95987526970d668cbb7995fe36b10_M.jpg" alt="Конор" class="product__photo">
+                    </a>
+                    </div>
+                    <div class="product__title">
+                       <a href="/proekti-domov/proekt-konor.html">
+                        Конор                    
+                        </a>
+                    </div>
+                    <div class="product__params">
+                        <div class="product__param">
+                           403,5 м<sup>2</sup>
+                        </div>
+                            <div class="product__param product_param_price_li">
+                                18 450 000 р.
+                            </div>
+                    </div>
+                </div>
+                <div class="product col-4 optima-project-list-item individual">
+                    <div class="product-img">
+                        <img src="images/individual.jpg" alt="Конор" class="product__photo">
+                    </div>
+                    <div class="individual__title"><p class="center">Вы можете заказать<br>индивидуальный проект</p></div>
+                    <div class="product__title center">
+                       <a href="/proektirovanie.html" class="individual__link">
+                Заказать индивидуальный проект
+            </a>
+                    </div>
+                    
+                </div>
+                
+	        </div>
+	        <div class="catalog-bottom center">
+                <a href="/proekti-domov.html" class="pink-btn catalog-bottom__link">Посмотреть все готовые проекты</a>
+
+</div>
+	    </div>
+	</section>
+	<section class="calc-links">
+	    <div class="container">
+	        <h3>Расчет строительства и расходов на эксплуатацию</h3>
+	        <div class="row">
+	            <div class="col-lg-6">
+	                <a href="/kalk-stroy.html" class="calc-link box"><div class="calc-link__bg" style="background-image: url('https://www.spb-optima.ru/images/calc/link-bg-1.jpg');"></div><span class="calc-link__title">Калькулятор<br> цены<br> дома </span> </a>
+	            </div>
+	            <div class="col-lg-6">
+	                <a href="/kalk-otoplenie.html" class="calc-link box blue-border"> <div class="calc-link__bg" style="background-image: url('https://www.spb-optima.ru/images/calc/link-bg-2.jpg');"></div> <span class="calc-link__title"> Калькулятор<br> затрат<br> на отопление </span> </a>
+	            </div>
 	        </div>
 	    </div>
 	</section>
+	<section class="advantages">
+	    <div class="container">
+	        <h3>10 правил проектирования и строительства</h3>
+	        <div class="row advantages__list">
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-1 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Прочность и долговечность</p>
+                    <p class="blue-text">Хороший дом строится на
+                несколько поколений</p>
+
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-2 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Тепловой комфорт и самоокупаемость</p>
+                <p class="blue-text">Вы не думаете о температуре и сквозняках </p>
+
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-3 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Красивый фасад</p>
+                <p class="blue-text">Ведь фасад - это лицо дома</p>
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-4 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Удобная планировка</p>
+                    <p class="blue-text">Когда уже ничего не хочется менять</p>
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-5 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Безопасность</p>
+                <p class="blue-text">Мой дом - моя крепость</p>
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-6 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Пожаробезопасность</p>
+                <p class="blue-text">Рисков возгорания нет</p>
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-7 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Современные инженерные системы</p>
+                    <p class="blue-text">Ваш дом - как лайнер с автопилотом</p>
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-8 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Экологичность и польза для здоровья</p>
+                    <p class="blue-text">Это когда дом как санаторий</p>
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-9 pos-center"></div>
+                </div>
+                <p class="advantage__desc">
+                    <p class="purple-text">Без переплат</p>
+                    <p class="blue-text">Желания совпадают с возможностями</p>
+
+            </div>
+            <div class="col-lg-3 advantage">
+                <div class="advantage__icon-wrap">
+                    <div class="icon icon-advantage-10 pos-center"></div>
+                </div><!--advantage__icon-wrap-->
+                <p class="advantage__desc">
+                    <p class="purple-text">Гарантия</p>
+                    <p class="blue-text">Просто Вы ничем не рискуете</p>
+            </div>
+        </div>
+        <a href="/10-pravil.html" class="blue-link advantages__link">Подробнее</a>
+	    </div>
+	</section>
+	<section class="form-artem">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-lg-6">
+	                <div class="form-artem-title">Остались вопросы к специалистам?</div>
+	                <div class="form-artem-desc">Давайте встретимся и обсудим их за чашкой кофе
+в удобное для вас время</div>
+	            </div>
+	            <div class="col-lg-6 relative">
+	                <img src="https://www.spb-optima.ru/images/a/webp/magnit/artem.webp">
+	                <div class="form-artem-text">
+	                    <div class="form-artem-name">Артём</div>
+	                    <div class="form-artem-dol">
+                        Директор по строительству
+                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-6">
+	                <div class="form-artem-name">Офис</div>
+	            </div>
+	            <div class="col-lg-6">
+	                <form class="artem-form" action="">
+                        <div class="form-artem-wrap">
+	                    <div class="artem-form-title">Как построить дом без стресса и косяко с 50 летней гарантией?</div>
+                        <div class="artem-form-title">Поделимся опытом лучших проектов построенных за 18 лет.</div>
+                        <div class="artem-form-desc">Назначьте встречу</div>
+                        <p class="form-small">После отправки данных менеджер свяжется с вами
+для назначения встречи.</p>
+                </div>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	
 <script src="libs/jquery.min.js"></script>
 <script src="libs/fancybox.min.js"></script>
 <script src="libs/swiper-bundle.min.js"></script>
      <script src="js/bootstrap.bundle.min.js"></script>
      <script src="js/main.js"></script>
      <script src="js/price.js"></script>
+     <script src="js/dd.min.js"></script>
+     
 
     </body>
 </html>
