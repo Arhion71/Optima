@@ -319,6 +319,7 @@ section {
 }
 .slide-btn-item {
   margin-bottom: 10px;
+  text-align: center;
 }
 .slide-btn-item a {
   width: 100%;
@@ -329,6 +330,7 @@ section {
   height: 100%;
   width: 100%;
   position: absolute;
+  min-height: 630px;
 }
 .product-thumbs__swiper {
   overflow: initial;
@@ -1151,6 +1153,7 @@ input.ms-value-input {
   font-weight: 600;
   font-size: 20px;
   color: #00a4d6;
+  padding-bottom: 20px;
 }
 .form-artem-text {
   position: absolute;
@@ -1190,6 +1193,159 @@ input.ms-value-input {
 }
 .main_catalog {
   padding-bottom: 70px;
+}
+.modal {
+  margin: 80px auto;
+  background: #fff;
+  border-radius: 9px;
+  max-width: 430px;
+  padding: 49px 60px 60px;
+  box-sizing: border-box;
+  position: relative;
+  height: auto;
+}
+.form__field {
+  background: #f2f6f8;
+  padding-left: 24px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #20242f;
+}
+.popup-form__field,
+label.popup-form-label,
+label.form-label {
+  margin-bottom: 18px;
+}
+.popup__title {
+  font-size: 17px;
+  font-weight: 900;
+  color: #1b1913;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  padding: 20px 0;
+}
+.check_priv {
+  margin-right: 10px;
+}
+.modal .pink-btn {
+  max-width: 100%;
+}
+.input-artem-phone {
+  background: #f8f8f8;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  height: 60px;
+  width: 260px;
+  text-align: center;
+}
+.blue-btn {
+  cursor: pointer;
+  background: #00a4d6;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.input-artem {
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+}
+.artem-btn-priv span {
+  padding-left: 10px;
+}
+.blue-adress {
+  font-weight: 900;
+}
+.blue-adress p {
+  margin: 0;
+}
+.blue-adress a {
+  text-decoration: underline;
+  color: #00a4d6;
+}
+.artem-btn-priv {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  line-height: normal;
+}
+.popup-form__field,
+.popup-form__btn,
+label.popup-form-label {
+  width: 100%;
+  display: block;
+  height: 54px;
+}
+.footer {
+  padding-top: 72px;
+  padding-bottom: 82px;
+  border-top: 2px solid #f2f6f8;
+}
+.footer a {
+  font-weight: 300;
+}
+.site-map__title {
+  margin-bottom: 7px;
+  font-size: 18px;
+  color: #00a3d6;
+  text-decoration: underline;
+}
+.site-map__list {
+  padding-left: 0;
+  line-height: 25px;
+}
+.site-map__list a {
+  font-size: 12px;
+  color: #979b9d;
+  line-height: 1.3;
+  text-decoration: none;
+}
+.footer__contacts {
+  text-align: right;
+  margin-left: -7px;
+  background: url(https://www.spb-optima.ru/images/footer-logo.png) no-repeat;
+}
+.footer__contacts span {
+  color: #1e87f0;
+  font-size: 18px;
+  font-weight: 900;
+}
+.sladi-desc span {
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px dotted #ffffff;
+}
+.sladi-desc a {
+  padding-top: 50px;
+}
+.sladi-desc {
+  padding-top: 2px;
+}
+.second-slide-text {
+  background: url(https://www.spb-optima.ru/images/icons.png) no-repeat;
+  background-position: 0 -89px;
+  padding-left: 70px;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+.icon-adv-3 {
+  background-position: 0 -150px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+}
+
+.second-slide .slide-btn-wrap {
+  margin-top: 70px;
 }
 @media (max-width: 768px) {
   .slide-content {
