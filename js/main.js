@@ -33,8 +33,60 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      540: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      }
+    }
+
   });
+
+  /* Меню */
+
+  $(".hamburger").click(function() {
+    $(this).toggleClass("active");
+    $('body').toggleClass("mobile");
+  });
+
+  $(".header-fixed__hamburger").click(function() {
+    $(this).toggleClass("active");
+    $('body').toggleClass("mobile");
+  });  
+
+  /* Закрытие крестика */
+  $(".nav-mobile-close").click(function() {
+    $('body').toggleClass("mobile");
+  });
+
+  $(".nav__item").click(function(e) {
+    e.preventDefault();
+    $(this).children('.nav-sec-level1').slideToggle();
+  });
+
+
 });
+
+
+/* Fixed HEADER */
+
+$(window).scroll(function(){
+  let sticky = $('.header-fixed'),
+      scroll = $(window).scrollTop();
+  if (scroll >= 200) {
+    sticky.addClass('fixed');
+  } else {
+    sticky.removeClass('fixed');
+  }
+});
+
+
+
 $(".main_catalog .select").on("click", function (e) {
   if ($(e.target).is(".select__item")) {
     e.preventDefault();
