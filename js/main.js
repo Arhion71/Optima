@@ -42,50 +42,54 @@ $(document).ready(function () {
       },
       992: {
         slidesPerView: 3,
-      }
-    }
-
+      },
+    },
   });
 
   /* Меню */
 
-  $(".hamburger").click(function() {
+  $(".hamburger").click(function () {
     $(this).toggleClass("active");
-    $('body').toggleClass("mobile");
+    $("body").toggleClass("mobile");
   });
 
-  $(".header-fixed__hamburger").click(function() {
+  $(".header-fixed__hamburger").click(function () {
     $(this).toggleClass("active");
-    $('body').toggleClass("mobile");
-  });  
+    $("body").toggleClass("mobile");
+  });
 
   /* Закрытие крестика */
-  $(".nav-mobile-close").click(function() {
-    $('body').toggleClass("mobile");
+  $(".nav-mobile-close").click(function () {
+    $("body").toggleClass("mobile");
   });
 
-  $(".nav__item").click(function(e) {
+  /*$(".nav__item").click(function (e) {
     e.preventDefault();
-    $(this).children('.nav-sec-level1').slideToggle();
-  });
-
-
+    $(this).children(".nav-sec-level1").slideToggle();
+  });*/
 });
-
-
-/* Fixed HEADER */
-
-$(window).scroll(function(){
-  let sticky = $('.header-fixed'),
-      scroll = $(window).scrollTop();
-  if (scroll >= 200) {
-    sticky.addClass('fixed');
-  } else {
-    sticky.removeClass('fixed');
+$(".mobile .nav__item_sec::after").click(function () {
+  $(".nav__item_sec.active").not(this).removeClass("active");
+  $(this).toggleClass("active");
+});
+$(document).mouseup(function (e) {
+  let questionsBlock = $(".mobile .nav__item_sec::after");
+  if (questionsBlock.has(e.target).length === 0) {
+    $(".nav__item_sec.active").removeClass("active");
   }
 });
 
+/* Fixed HEADER */
 
+$(window).scroll(function () {
+  let sticky = $(".header-fixed"),
+    scroll = $(window).scrollTop();
+  if (scroll >= 200) {
+    sticky.addClass("fixed");
+  } else {
+    sticky.removeClass("fixed");
+  }
+});
 
 $(".main_catalog .select").on("click", function (e) {
   if ($(e.target).is(".select__item")) {
