@@ -68,6 +68,16 @@ img {
 section {
   padding: 25px 0;
 }
+.first-screen {
+  position: relative;
+}
+.first-screen .slide-content {
+  position: relative;
+  padding: 50px;
+}
+.first-screen .slide-bg {
+  min-height: 100%;
+}
 .header .row {
   align-items: center;
 }
@@ -161,11 +171,14 @@ section {
   position: absolute;
   top: -2px;
   bottom: 0;
-  right: 10px;
+  right: 20px;
   margin: auto;
   width: 8px;
   height: 5px;
   background: url(https://www.spb-optima.ru/images/icons.png) no-repeat 0 -21px;
+}
+.mobile .nav__item_sec:after {
+  right: 10px;
 }
 .nav__link {
   line-height: 51px;
@@ -1506,7 +1519,125 @@ label.popup-form-label {
 .mobile .nav__item_sec:hover .nav-sec-level1 {
   background: transparent;
 }
-
+.price_wrap_under_slide {
+  padding: 15px;
+  border: 2px solid #00a3d6;
+  border-radius: 6px;
+  height: 100%;
+}
+.title_under_slide {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.price_under_slide {
+  color: #ee1c69;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+}
+.arrow_list {
+  line-height: 30px;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.arrow_list li {
+  position: relative;
+  padding-left: 25px;
+}
+.arrow_list li:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  position: absolute;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+  top: 8px;
+  left: 0;
+  z-index: 1;
+  transform: translateY(10%) rotate(-45deg);
+}
+.under-catalog-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.under-catalog-bottom .catalog-bottom__link {
+  max-width: 330px;
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+  border-radius: 6px;
+}
+.under-video,
+.under_slider__item img {
+  width: 100%;
+  max-height: 223px;
+  object-fit: cover;
+}
+.examples {
+  padding-top: 10px;
+  background: linear-gradient(to top, #e8f0f5, #fff);
+}
+.block-title {
+  padding-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.type-img img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  height: 100%;
+}
+.form-ilya {
+  background: url(file:///Users/ivanberger/Downloads/project_work/images/bg9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-artem-title span {
+  color: #00a4d6;
+}
+.ilay-form-title {
+  padding: 15px 0;
+}
+.ilya-form-title {
+  font-size: 24px;
+  font-weight: 900;
+  color: #00a4d6;
+}
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.main-tabs__caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.main-tabs__btn {
+  padding: 0 20px;
+  transition: all 0.5s ease;
+}
+.main-tabs__btn,
+.main-tabs__btn:hover {
+  background: #fff;
+  border: 1px solid #00a4d6;
+  color: #00a4d6;
+}
+.main-tabs__btn.active {
+  background: #00a4d6;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.title-wrap p {
+  margin: 0;
+}
 @media (max-width: 1199px) {
   .header_logo {
     display: block;
