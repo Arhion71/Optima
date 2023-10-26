@@ -1831,6 +1831,95 @@ label.popup-form-label {
 .poleznoe_text {
   width: 65%;
 }
+.energo-main-slider {
+  background: url(https://www.spb-optima.ru/images/sin/fonsin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.energo-text {
+  text-align: center;
+  width: 820px;
+  margin: auto;
+  max-width: 100%;
+  padding: 250px 0;
+}
+.energo-block {
+  background-color: rgba(129, 143, 192, 0.7);
+  padding: 30px;
+  color: #fff;
+}
+.energo-block h1 {
+  font-size: 65px;
+  padding-bottom: 20px;
+}
+.energo-sub-title {
+  font-size: 28px;
+  padding-bottom: 40px;
+}
+.energo-sub-desc {
+  font-size: 18px;
+}
+.red-company {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 700;
+}
+.hover-img img {
+  width: 255px;
+  object-fit: contain;
+}
+.hover-img {
+  overflow: hidden;
+  padding: 20px 0;
+}
+.hover-img img {
+  transition: all 0.5s ease;
+}
+.hover-img:hover img {
+  transform: scale(1.05);
+}
+.energo_title {
+  font-weight: 700;
+  padding-top: 10px;
+}
+.energo_h4 {
+  font-size: 26px;
+  text-align: center;
+}
+.energo-list .list-img-icon {
+  width: 180px;
+  height: 160px;
+  object-fit: contain;
+}
+.energo_desc {
+  font-size: 12px;
+}
+.su-heading-inner {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.surow img {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 220px;
+  object-fit: cover;
+}
+.surow_desc {
+  text-align: left;
+}
+.surow-title {
+  background: rgba(0, 115, 150, 0.32);
+  text-shadow: 1px 1px 1px #0c2840;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
 @media (max-width: 1199px) {
   .header_logo {
     display: block;
