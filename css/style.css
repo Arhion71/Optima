@@ -437,11 +437,7 @@ section {
   left: 0;
   top: 12px;
 }
-.adv-img {
-  display: inline-block;
-  background: url(https://www.spb-optima.ru/images/icons.png) no-repeat;
-  flex-shrink: 0;
-}
+
 .icon-why-1 {
   width: 70px;
   height: 70px;
@@ -520,28 +516,21 @@ section {
 .icon-link-2 {
   width: 59px;
   height: 59px;
-  background-position: 0 -401px;
+  background-position: 0 -401px !important;
 }
 .icon-link-3 {
   width: 54px;
   height: 55px;
-  background-position: 0 -523px;
+  background-position: 0 -523px !important;
 }
-.icon-link-4 {
-  width: 59px;
-  height: 59px;
-  background: url(https://www.spb-optima.ru/images/icons1.png) no-repeat;
-}
+
 .link-item {
-  display: flex;
-  gap: 15px;
-  align-items: center;
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 35px;
 }
 .link-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  align-items: center;
+  padding-left: 25px;
 }
 .link-item .adv-desc {
   margin-bottom: 0;
@@ -1087,6 +1076,17 @@ input.ms-value-input {
   display: inline-block;
   background: url(https://www.spb-optima.ru/images/icons.png) no-repeat;
 }
+.icon-link-4 {
+  width: 59px;
+  height: 59px;
+  background: url(https://www.spb-optima.ru/images/icons1.png) no-repeat;
+}
+.adv-img {
+  display: inline-block;
+  background: url(https://www.spb-optima.ru/images/icons.png) no-repeat;
+  flex-shrink: 0;
+}
+
 .advantage__icon-wrap {
   width: 100px;
   height: 100px;
@@ -1703,6 +1703,134 @@ label.popup-form-label {
   width: 50px;
   height: 50px;
 }
+.icon-step-1 {
+  width: 44px;
+  height: 50px;
+  background-position: 0 -2873px;
+}
+.step__icon-wrap {
+  width: 55px;
+  height: 53px;
+  position: relative;
+}
+.step__icon-wrap .pos-center {
+  right: 5px;
+}
+.tabs__content {
+  padding: 20px 0;
+}
+.step__number {
+  font-size: 16px;
+  font-weight: 900;
+  color: #ee1c69;
+  line-height: 1.3;
+  text-transform: uppercase;
+  margin-top: 22px;
+}
+.icon-step-5 {
+  width: 47px;
+  height: 50px;
+  background-position: 0 -3084px;
+}
+.icon-step-6 {
+  width: 50px;
+  height: 50px;
+  background-position: 0 -3136px;
+}
+.icon-step-7 {
+  width: 50px;
+  height: 50px;
+  background-position: 0 -3188px;
+}
+.step-banner {
+  max-height: 315px;
+  background: url(https://www.spb-optima.ru/images/banners/banner-1.jpg)
+    no-repeat center top;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.banner__title {
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.5;
+  padding-top: 30px;
+  padding-left: 38px;
+  color: #00a3d6;
+}
+.step__title {
+  font-size: 16px;
+  font-weight: 900;
+  color: #20242f;
+  line-height: 1.3;
+  margin-bottom: 17px;
+  margin-top: 2px;
+}
+.tabs__content h2 {
+  padding: 15px 0;
+}
+.icon-step-2 {
+  width: 55px;
+  height: 53px;
+  background-position: 0 -2925px;
+}
+.icon-step-3 {
+  width: 50px;
+  height: 50px;
+  background-position: 0 -2980px;
+}
+.icon-step-4 {
+  width: 49px;
+  height: 50px;
+  background-position: 0 -3032px;
+}
+.poleznoe_text a {
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #00a3d6;
+  line-height: 1.4;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px dotted #0aa7d8;
+}
+
+.poleznoe_item {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #00a4d6;
+  border-radius: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.recommend a {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  display: block;
+  width: auto;
+}
+.recommend .row {
+  gap: 5px;
+  justify-content: center;
+}
+.poleznoe-img {
+  max-width: 100%;
+  width: 180px;
+}
+.poleznoe-img img {
+  width: 225px;
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.poleznoe_text {
+  width: 65%;
+}
 @media (max-width: 1199px) {
   .header_logo {
     display: block;
@@ -1746,9 +1874,11 @@ label.popup-form-label {
 }
 
 @media (max-width: 768px) {
-  .slide-content {
+  .slide-content,
+  .poleznoe_text {
     width: 100%;
   }
+
   .mobile .naw-wr {
     top: 0;
   }
