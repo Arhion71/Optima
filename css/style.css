@@ -326,6 +326,7 @@ section {
   max-width: 270px;
   padding: 20px;
   border-radius: 6px;
+  border: 1px solid transparent;
 }
 .lx-blue-btn {
   background: #00a4d6;
@@ -1590,7 +1591,7 @@ label.popup-form-label {
   height: 100%;
 }
 .form-ilya {
-  background: url(file:///Users/ivanberger/Downloads/project_work/images/bg9.jpg);
+  background: url(images/bg9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1919,6 +1920,220 @@ label.popup-form-label {
   color: #fff;
   font-weight: 700;
   font-size: 17px;
+}
+.su-section {
+  background-image: url(https://www.spb-optima.ru/images/sin/sinproekt.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.yellow-table {
+  background: #ffff0075;
+}
+.blue-table {
+  background: #00a4d6;
+}
+
+.su-section-table {
+}
+.su-section-img img {
+  width: 200px;
+}
+.su-section-title {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.su-section-desc {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.su-section-table {
+  padding: 0 20px 0px 20px;
+  border-radius: 6px;
+  min-height: 440px;
+}
+.su-section-desc span {
+  color: #00a4d6;
+  font-weight: 700;
+}
+.m0 {
+  margin: 0;
+}
+.su-section-table-row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.su-section-table-row {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+  padding: 10px 0px;
+}
+.number-price {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+.su-section-btn .pink-btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.pink-btn:hover {
+  color: #ee1c69;
+  background: #fff;
+  border: 1px solid #ee1c69;
+}
+.su-section-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.su-section-price {
+  color: #ee1c69;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+.graf-heading-inner {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.graph-item {
+  color: #fff;
+  border-radius: 3px;
+  background-color: #00508c;
+  box-shadow: 0 0 1px #2280ac;
+}
+.graph-1 {
+  height: 280px;
+  margin-top: 0;
+}
+.graph {
+  gap: 5px;
+}
+.graph .graph-item {
+  width: 24%;
+  position: relative;
+}
+.graph-item span {
+  position: absolute;
+  bottom: -23px;
+  color: #00508c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.graph-2 {
+  height: 120px;
+  margin-top: 160px;
+}
+.graph-3 {
+  height: 45px;
+  margin-top: 235px;
+}
+.graph-4 {
+  height: 7.5px;
+  margin-top: 275px;
+}
+#calcEnergy {
+  width: 100%;
+}
+
+#calcEnergy .calcEn-body {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#calcEnergy .calcEn-body .pctr {
+  width: 100%;
+  position: relative;
+}
+
+#calcEnergy .calcEn-body .main {
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+#calcEnergy .calcEn-body .main label {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-family: arial;
+  display: block;
+  padding-left: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+#calcEnergy .calcEn-body .main #area-slider {
+  position: relative;
+}
+
+#calcEnergy .calcEn-body .main .area {
+  padding-top: 20px;
+}
+
+#calcEnergy .calcEn-body .main .area div {
+  overflow: inherit !important;
+  height: 10px !important;
+  margin: 0 !important;
+}
+
+#calcEnergy .calcEn-body .main .complectation,
+#calcEnergy .calcEn-body .main .resource,
+#calcEnergy .calcEn-body .main .area {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+#calcEnergy .calcEn-body .main .complectation:after,
+#calcEnergy .calcEn-body .main .resource:after,
+#calcEnergy .calcEn-body .main .area:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#calcEnergy .calcEn-body .main .complectation .nice-select,
+#calcEnergy .calcEn-body .main .resource .nice-select {
+  width: 100%;
+  display: block;
+  position: relative;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+}
+
+#calcEnergy .calcEn-body .main .complectation .nice-select .list,
+#calcEnergy .calcEn-body .main .resource .nice-select .list {
+  width: 100%;
+}
+
+#calcEnergy .calcEn-body .main .result {
+  display: block;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#calcEnergy .calcEn-body .main .result label {
+  float: left;
+  width: auto;
+  font-weight: bold;
+}
+
+#calcEnergy .calcEn-body .main .result .result_month,
+#calcEnergy .calcEn-body .main .result .result_year {
+  float: right;
+  font-size: 18px;
 }
 @media (max-width: 1199px) {
   .header_logo {
