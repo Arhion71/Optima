@@ -24,20 +24,64 @@ $(document).ready(function () {
       disableOnInteraction: false,
     },
   });
+
+  // Слайдер в карточке
+  var swiperCardThumbs = new Swiper(".card-slider__thumb", {
+    slidesPerView: 4,
+    spaceBetween: 9,
+    mousewheel: false,
+    keyboard: false,
+    navigation: {
+      nextEl: ".swiper-button-next-thumb",
+      prevEl: ".swiper-button-prev-thumb",
+    },
+  });
+  var swiperCard = new Swiper(".card-slider__big", {
+    slidesPerView: 1,
+    draggable: true,
+    loop: true,
+    effect: "fade",
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiperCardThumbs,
+    },
+  });
+
+
   // Tabs
   $(".tabs__caption").on("click", ".tabs__btn:not(.active)", function (e) {
     $(this)
-      .addClass("active")
-      .siblings()
-      .removeClass("active")
-      .closest(".tabs")
-      .find(".tabs__content")
-      .hide()
-      .removeClass("active")
-      .eq($(this).index())
-      .fadeIn(50)
-      .addClass("active");
+        .addClass("active")
+        .siblings()
+        .removeClass("active")
+        .closest(".tabs")
+        .find(".tabs__content")
+        .hide()
+        .removeClass("active")
+        .eq($(this).index())
+        .fadeIn(50)
+        .addClass("active");
   });
+
+  $(".tabs__inner-caption").on("click", ".tabs__inner-btn:not(.active)", function (e) {
+    $(this)
+        .addClass("active")
+        .siblings()
+        .removeClass("active")
+        .closest(".tabs__inner")
+        .find(".tabs__inner-content")
+        .hide()
+        .removeClass("active")
+        .eq($(this).index())
+        .fadeIn(50)
+        .addClass("active");
+  });
+
+
 
   const swipeReviewSlide = new Swiper(".review_slider__swiper", {
     slidesPerView: 3,
