@@ -1,0 +1,1008 @@
+.general-title {
+    margin-top: 42px;
+}
+h1.general-title__title {
+    font-size: 36px;
+    color: #20242f;
+    font-weight: 700;
+    line-height: 1.3;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ul span {
+    color: #00A4D6;
+    font-style: italic;
+    font-weight: 700;
+}
+.transparent-btn-blue {
+    height: 59px;
+    line-height: 55px;
+    text-align: center;
+    border: 2px solid #00a3d6;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #00a3d6;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.transparent-btn-red {
+    height: 59px;
+    line-height: 55px;
+    text-align: center;
+    border: 2px solid #f0226d;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.transparent-btn-blue:hover {
+    background: #00a3d6;
+    color: #fff;
+}
+.transparent-btn-red:hover {
+    background: #f0226d;
+    color: #fff;
+    text-decoration: underline;
+}
+.page-geo-detail__type-subtitle {
+    margin-top: 36px;
+    font-weight: 700;
+    max-width: 1010px;
+    font-size: 30px;
+    line-height: 1.35;
+}
+.page-geo-detail__type-params-list {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 19px;
+    line-height: 1.3;
+}
+.page-geo-detail__type-params-info {
+    margin: 0;
+}
+.page-geo-detail__type-params-info span {
+    color: #f0506e;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+/* Модалки */
+.popup__text {
+    text-align: center;
+}
+
+
+.input-artem-phone,
+.input-artem-btn {
+    width: 50%;
+}
+
+
+.breadcrumbs__wrap {
+    margin: 20px 0 20px 0;
+}
+.breadcrumbs__list {
+    display: flex;
+    gap: 30px;
+}
+.breadcrumbs__link {
+    color: #00a3d6;
+    transition: color .2s ease;
+}
+.breadcrumbs__link:hover {
+    color: #0f6ecd;
+}
+.breadcrumbs__last {
+    color: #989898;
+    font-style: normal;
+    font-weight: normal;
+}
+.card-slider__big-slide {
+    min-height: 445px;
+}
+.card-slider__big-slide-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover !important;
+}
+.card-slider__big {
+    margin-bottom: 9px;
+}
+.swiper-button-next {
+    right: 0;
+    border-radius: 8px 0 0 8px;
+}
+.swiper-button-prev {
+    border-radius: 0 8px 8px 0;
+    left: 0;
+}
+.swiper-button-next-thumb,
+.swiper-button-prev-thumb {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
+.swiper-button-next-thumb {
+    right: 0;
+    border-radius: 8px 0 0 8px;
+}
+.swiper-button-prev-thumb {
+    left: 0;
+    border-radius: 0 8px 8px 0;
+}
+.swiper-button-next-thumb::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url('../images/icons.png') no-repeat 0 -657px;
+    width: 16px;
+    height: 18px;
+}
+.swiper-button-prev-thumb::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url('../images/icons.png') no-repeat 0 -637px;
+    width: 16px;
+    height: 18px;
+}
+.swiper-slide-thumb-active {
+    opacity: .37;
+}
+.fixed-project {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 170px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    z-index: 9999;
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.fixed-project__favourites-icon {
+    width: 15px;
+    height: 15px;
+    transform: translateY(-2px);
+    fill: transparent;
+}
+.fixed-project__favourites-icon--fill {
+    fill: #00a4d6;
+}
+.page-card__share-icon {
+    width: 14px;
+    height: 14px;
+    fill: #b3c1c7;
+}
+.page-card__share-block {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.page-card__share-print {
+    cursor: pointer;
+}
+
+.page-card {
+    position: relative;
+}
+.page-card__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.page-card__text {
+    padding: 0 25px 25px 25px;
+}
+.card-specifications__square-block {
+    margin-bottom: 20px;
+}
+.card-specifications__square-name {
+    font-size: 16px;
+    font-weight: 900;
+    color: #20242f;
+    margin: 0;
+}
+.card-specifications__square-value {
+    font-size: 24px;
+    display: inline-block;
+}
+.card-specifications__wrap-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.card-specifications__rooms-icon,
+.card-specifications__bathrooms-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.card-specificationss__rooms-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card-specifications__bathrooms-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card-specifications__rooms-name,
+.card-specifications__bathrooms-name {
+    text-align: center;
+    margin: 0;
+}
+.card-specifications__rooms-value,
+.card-specifications__bathrooms-value {
+    font-weight: 700;
+    font-size: 20px;
+}
+.card-specifications__technology-name,
+.card-cost__price-name,
+.card-cost__ipoteka-name {
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+.card-specifications__technology-value,
+.card-cost__price-value,
+.card-cost__ipoteka-value {
+    font-weight: normal;
+}
+.page-card__cost-block {
+    margin-bottom: 20px;
+}
+.page-card__btn {
+    min-width: 230px;
+}
+.page-card__btn:first-child {
+    margin-bottom: 10px;
+}
+.page-card__full-text {
+    display: none;
+}
+.page-card__wrap {
+    position: relative;
+}
+.page-card__wrap:after {
+    content: '';
+    width: 100%;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.2),0 1px rgba(0,0,0,.3);
+    border-top: 1px solid #00a4d6;
+    height: calc(100% - 41px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form {
+    margin-top: 41px;
+}
+.page-card__tabs .tabs__caption {
+    display: flex;
+    gap: 10px;
+}
+.page-card__tabs .tabs__btn {
+    box-shadow: 0 -1px 2px 0 rgba(0,0,0,.2);
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    color: #00a4d6;
+}
+.page-card__tabs .tabs__btn.active {
+    background: #00a4d6;
+    color: #fff;
+}
+.page-card__tabs .blue-btn {
+    margin-bottom: 0;
+    height: 41px;
+}
+.page-card__tabs .tabs__inner {
+    position: relative;
+    z-index: 4;
+}
+.page-card__tabs .tabs__inner-caption {
+    display: flex;
+    gap: 20px;
+
+}
+.page-card__tabs .tabs__inner-btn {
+    background: transparent;
+}
+.page-card__tabs .tabs__inner-btn {
+    padding: 10px 5px 5px 10px;
+    cursor: pointer;
+    box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, .2);
+    color: #00a4d6;
+    border-radius: 5px 5px 0 0;
+}
+.page-card__tabs .tabs__inner-btn.active {
+    border: 1px solid #00a4d6;
+    border-bottom: 0;
+}
+.form-communication__wrap {
+    margin-top: 50px;
+    position: relative;
+    z-index: 3;
+}
+.form-communication__image {
+    height: 60%;
+    object-fit: cover;
+}
+.form-communication__text {
+    text-align: center;
+}
+.form-communication__slogan {
+    font-weight: bold;
+    margin: 5px 0;
+}
+.page-card__banner {
+    background: linear-gradient(to top,#e8f0f5,#fff);
+}
+.banner-tp1__wrap {
+    padding: 40px;
+    background: url('../images/fongltochki.png');
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 1px 5px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.banner-tp1__picture {
+    flex-basis: 25%;
+    flex-shrink: 0;
+    text-align: center;
+}
+.banner-tp1__title {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 35px;
+}
+.banner-tp1__desc {
+    margin: 0;
+}
+.banner-tp1__more {
+    color: #1e87f0;
+}
+.page-card__price-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.page-card__price-wrap {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.page-card__price-left {
+    flex-basis: 20%;
+}
+.page-card__price-right {
+    flex-basis: 40%;
+}
+.page-card__price-list {
+    margin: 0;
+    padding: 0;
+}
+.page-card__price-item {
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+}
+.page-card__price-cost {
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 900;
+    color: #f43d7e;
+}
+.page-card__price-btn {
+    width: 100%;
+}
+.similary-tags__title {
+    font-weight: bold;
+    color: #555;
+    padding: 0 4px 0 0;
+}
+.similary-tags__list {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.similary-tags__item{
+    display: inline;
+}
+.similary-tags__link {
+    height: auto;
+    line-height: 1.8;
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    padding: 8px 8px 8px 8px;
+    margin: auto auto 9px 15px;
+    box-shadow: -1px 1px 0 rgba(255,255,255,0.3) inset;
+    border-radius: 4px;
+    background-color: #2579D5;
+    color: #fff;
+}
+.form-tp1 {
+    background: url('../images/form-block-bg-2.jpg') no-repeat center top;
+    background-size: cover;
+    padding-top: 71px;
+    padding-bottom: 85px;
+}
+.form-tp1__desc {
+    margin-top: 33px;
+    font-size: 19px;
+    color: #232323;
+    line-height: 1.3;
+    max-width: 700px;
+}
+.form-tp1__form {
+    max-width: 781px;
+    margin-top: 38px;
+}
+.form-tp1__block-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.form-tp1__btn {
+    white-space: nowrap;
+}
+.form-tp1__field {
+    flex-basis: 30%;
+    min-height: 59px;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 15px;
+    color: #8c8c8c;
+    padding-left: 30px;
+}
+.form-tp1__label {
+    margin-top: 5px;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #20242f;
+}
+.page-card__meeting {
+    background: url('../images/bg11.png') 100% 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.page-card__meeting .form-artem-name {
+    padding-bottom: 0;
+}
+.page-card__meeting .form-artem-text {
+    top: 20%;
+    right: 50px;
+}
+
+.page-card__meeting .form-artem-title {
+    font-size: 50px;
+    line-height: 60px;
+}
+.page-card__meeting .form-artem-title span {
+    display: block;
+    max-width: 490px;
+    color: #00A4D6;
+    font-weight: 700;
+    font-style: italic;
+}
+.page-card__meeting-title2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.page-card__meeting-list {
+    margin-top: 15px;
+    line-height: 24px;
+}
+.page-card__meeting-item {
+    padding: 10px 0;
+    font-size: 18px;
+}
+.page-card__meeting-text {
+    color: #00A4D6;
+    font-weight: 700;
+    font-style: italic;
+}
+.page-card__meeting .artem-form::after {
+    content: '';
+    width: 178px;
+    height: 146px;
+    display: block;
+    background: url('../images/domik2.png') center;
+    background-size: cover;
+    position: absolute;
+    left: -55px;
+    bottom: -35px;
+}
+.page-card__meeting-picture {
+    text-align: center;
+}
+
+.projects-list__picture {
+    display: block;
+    max-height: 175px;
+}
+.projects-list__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.projects-list__title {
+    margin-right: 5px;
+    display: block;
+    font-size: 16px;
+    color: #00a3d6;
+    line-height: 1.4;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px dotted #0aa7d8;
+    font-weight: bold;
+    transition: all .1s ease;
+}
+.projects-list__link:hover .projects-list__title {
+    color: #0f6ecd;
+    text-decoration: underline;
+    border-bottom-color: transparent;
+}
+.projects-list__desc {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #6e6e6e;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.page-geography__pr {
+    background: url('../images/bg9.png') 100% 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.page-geography__pr-title {
+    font-size: 34px;
+    line-height: 40px;
+    padding: 80px 0 40px 0;
+    font-weight: 700;
+}
+.page-geography__pr-title span {
+    color: #00A4D6;
+    font-weight: 700;
+    font-style: italic;
+}
+.page-geography__pr-text {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+.page-geography__pr-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+.page-geography__pr-form {
+    position: relative;
+}
+.page-geography__pr-position-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 220px;
+    background: rgba(255,255,255,.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+.page-geography__pr-name {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00A4D6;
+}
+.page-geography__pr-position {
+    font-weight: 300;
+    font-size: 14px;
+}
+.form-tp2 {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 55px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.form-tp2__wrap {
+    border: 0.5px dashed #0090C2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 40px 10px;
+    position: relative;
+    text-align: center;
+}
+.form-tp2__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #00A4D6;
+}
+.form-tp2__slogan {
+    font-size: 18px;
+    margin: 20px auto;
+    width: 83%;
+    max-width: 469px;
+    line-height: 1;
+}
+.form-tp2__btn {
+    cursor: pointer;
+    background: #00A4D6;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 60px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px auto;
+}
+.form-tp2::after {
+    content: '';
+    width: 114px;
+    height: 114px;
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: url('../images/key.png') no-repeat center;
+}
+.page-geography__pr-picture {
+    display: block;
+    text-align: center;
+}
+.page-geo-detail__img {
+    max-width: 510px;
+}
+.page-geo-detail__pos-params {
+    margin: 0;
+    padding: 0;
+}
+.page-geo-detail__place span {
+    color: #f0506e;
+}
+.page-geo-detail__thumb .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.page-geo-detail-slide {
+    width: 100px !important;
+    cursor: pointer;
+}
+.page-geo-detail-slide img {
+    max-width: 100px;
+}
+.page-geo-detail__thumb {
+    max-width: 320px;
+}
+.page-geo-detail__big-slide {
+    min-height: 520px;
+}
+.page-geo-detail__big-slide-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover !important;
+}
+.page-geo-detail__stage .tabs__caption {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.page-geo-detail__stage .tabs__btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+.page-geo-detail__stage .tabs__btn.active {
+    background: #00a3d6;
+    color: #fff;
+}
+
+.page-geo-detail__stage-subtitle {
+    font-size: 21px;
+    font-weight: 900;
+    color: #20242f;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.page-geo-detail__stage-text {
+    font-size: 15px;
+    color: #20242f;
+    line-height: 1.4;
+    margin-bottom: 21px;
+}
+.page-geo-detail__stage .swiper {
+    margin: 40px auto 0;
+}
+.page-geo-detail__stage-cosult {
+    min-width: 320px;
+    margin-top: 20px;
+}
+.page-geo-detail__gallery-link {
+    display: inline-block;
+}
+.page-geo-detail__gallery-picture {
+    display: block;
+    max-height: 200px;
+}
+.page-geo-detail__gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page-geo-detail__pos-consult {
+    margin: 60px auto 30px;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page-geo-detail__type {
+    padding-top: 35px;
+    padding-bottom: 45px;
+    background: linear-gradient(to top,#fff,#e8f0f5);
+}
+.page-geo-detail__form {
+    background: url(../images/bg9.png) 100% 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (max-width: 1320px) {
+    .page-card__meeting .input-artem {
+        flex-direction: column;
+    }
+    .page-card__meeting .input-artem-phone {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .form-tp2::after {
+        background-size: 70px;
+        bottom: 5px;
+        right: 5px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .page-card__text {
+        margin-top: 40px;
+    }
+    .card-specifications__wrap-block {
+        justify-content: space-between;
+    }
+    .card-specifications__rooms-block,
+    .card-specifications__bathrooms-block {
+        flex-basis: 40% !important;
+    }
+    .card-specifications__bathrooms-wrap,
+    .card-specificationss__rooms-wrap {
+        justify-content: center;
+    }
+    .card-specifications__rooms-icon,
+    .card-specifications__bathrooms-icon {
+        max-width: 100px;
+        width: 100%;
+        height: auto;
+    }
+    .form-communication__wrap {
+        text-align: center;
+    }
+    .form-communication__image {
+        height: 60%;
+    }
+    .page-card__meeting .form-artem-title {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .page-card__meeting .form-artem-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .form-tp1__field {
+        flex-basis: 48%;
+        margin-bottom: 4%;
+    }
+    .form-communication__left {
+        max-height: 550px;
+    }
+    .page-geography__pr-title {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .page-geo-detail__stage-cosult {
+        padding-left: 5px;
+        padding-right: 5px;
+        min-width: auto;
+    }
+}
+@media (max-width: 768px) {
+    .banner-tp1__wrap {
+        flex-direction: column;
+    }
+    .banner-tp1__img {
+        max-width: 80%;
+    }
+    .page-card__price-wrap {
+        flex-direction: column;
+    }
+    .page-card__price-right,
+    .page-card__price-left {
+        flex-basis: 100%;
+    }
+    .page-card__price-left {
+        order: 2;
+        text-align: center;
+    }
+    .similary-tags__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        margin-top: 20px;
+    }
+    .similary-tags__item{
+        flex-basis: 49%;
+    }
+    .similary-tags__link {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .form-artem-text {
+        text-align: center;
+    }
+    .page-card__meeting {
+        background: transparent;
+    }
+    .page-card__meeting .artem-form::after {
+        display: none;
+    }
+    .page-card__meeting .artem-btn-priv {
+        width: 100% !important;
+    }
+    .input-artem-phone,
+    .input-artem-btn {
+        width: 100%;
+    }
+    .page-geography__pr-position-block {
+        position: static;
+        margin: 10px auto;
+        max-width: 320px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+    .card-specifications__rooms-icon,
+    .card-specifications__bathrooms-icon {
+        max-width: 50px;
+    }
+    .card-specifications__wrap-block {
+        justify-content: normal;
+    }
+    .card-slider__big-slide {
+        min-height: 300px;
+    }
+    .form-tp1__block-wrap {
+        display: block;
+    }
+    .form-tp1__field,
+    .form-tp1__btn {
+        width: 100%;
+    }
+    .form-tp1__btn {
+        max-width: 100%;
+    }
+    .form-communication__image {
+        height: 50%;
+    }
+    .form-communication__left {
+        max-height: 450px;
+    }
+    .page-card__meeting-img {
+        max-width: 50%;
+    }
+    .form-artem-desc {
+        font-size: inherit;
+    }
+    .page-card__meeting-title2 {
+        font-size: 16px;
+    }
+    .page-card__meeting-item {
+        font-size: inherit;
+    }
+    .form-tp1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .form-tp1__desc {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .page-card__price-title {
+        font-size: 1.6rem;
+    }
+    .page-geography__pr-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .page-geography__pr-text {
+        font-size: inherit;
+    }
+    .form-tp2__slogan {
+        font-size: inherit;
+    }
+    .form-tp2::after {
+        display: none;
+    }
+    .page-geography__pr {
+        background-position: 2000px 0;
+    }
+    .projects-list__title {
+        margin-top: 10px;
+    }
+    .page-geo-detail__gallery-picture {
+        max-height: none;
+    }
+    .page-geo-detail__stage .tabs__btn {
+        flex-basis: 49%;
+    }
+    .page-geo-detail__stage .tabs__btn {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .page-geo-detail__type-subtitle {
+        font-size: 25px;
+    }
+    .page-geo-detail__big-slide {
+        min-height: 320px;
+    }
+}
