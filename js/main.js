@@ -134,6 +134,57 @@ $(document).ready(function() {
         },
     });
 
+    // Сертификаты
+    const swiperCertificates = new Swiper(".certificates__list", {
+        slidesPerView: 8,
+        draggable: true,
+        loop: true,
+        spaceBetween: 50,
+        slidesPerGroup: 8,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            320: {
+                slidesPerView: 2,
+            },
+            540: {
+                slidesPerView: 5,
+            },
+            992: {
+                slidesPerView: 8,
+            },
+        },
+
+    });
+
+    // FAQ
+    const $speed = 200;
+    const $class = "opened";
+    const $class_open = ".faq-answer";
+    $(".faq-question").on("click", function () {
+        $ul = $(this).closest("ul");
+        $answer = $(this).closest("li").find($class_open);
+
+        if (!$(this).closest("li").hasClass($class)) {
+            $ul.find("li").each(function () {
+                if ($(this).hasClass($class))
+                    $(this).removeClass($class).find($class_open).slideUp($speed);
+            });
+        }
+        $answer.slideToggle($speed).closest("li").toggleClass($class);
+    });
+
+
+
 
 
     // Tabs
