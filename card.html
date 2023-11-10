@@ -131,7 +131,7 @@
     <div class="container">
         <button class="nav-mobile-close"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><polygon points="512,59.076 452.922,0 256,196.922 59.076,0 0,59.076 196.922,256 0,452.922 59.076,512 256,315.076 452.922,512 512,452.922 315.076,256 "/></g></g></svg></button>
         <ul class="nav">
-            <li class="col-lg-2 col-md-3 col-12 nav__item nav__item_sec">
+            <li class="nav__item nav__item_sec">
                 <a href="/"><span class="nav__link">Строительство</span></a>
                 <ul class="nav-sec nav-sec-level1">
                     <li class="">
@@ -157,7 +157,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="col-lg-2 col-md-3 col-12 nav__item nav__item_sec">
+            <li class="nav__item nav__item_sec">
                 <a href="#"><span class="nav__link">Проектирование</span></a>
                 <ul class="nav-sec nav-sec-level1">
                     <li class="">
@@ -174,7 +174,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="col-lg-2 col-md-3 col-12 nav__item nav__item_sec">
+            <li class="nav__item nav__item_sec">
                 <a href="#"><span class="nav__link">Наши работы</span></a>
                 <ul class="nav-sec nav-sec-level1">
                     <li class="">
@@ -191,7 +191,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="col-lg-2 col-md-3 col-12 nav__item nav__item_sec">
+            <li class="nav__item nav__item_sec">
                 <a href="#"><span class="nav__link">Услуги и цены</span></a>
                 <ul class="nav-sec nav-sec-level1">
                     <li class="">
@@ -220,7 +220,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="col-lg-2 col-md-3 col-12 nav__item nav__item_sec">
+            <li class="nav__item nav__item_sec">
                 <a href="/about-company.html"><span class="nav__link">О компании</span></a>
                 <ul class="nav-sec nav-sec-level1">
                     <li class="">
@@ -243,7 +243,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="col-lg-2 col-md-3 col-12 nav__item">
+            <li class="nav__item">
                 <a class="nav__link" href="/contacts.html">Контакты</a>
             </li>
         </ul>
@@ -946,16 +946,16 @@
 </section>
 <!--Modals-->
 <div class="modal" id="callback">
-    <p class="popup__title">Связаться со специалистом</p>
-    <form class="popup-form form" data-neiros="" data-yandex-goal="zakaz_zvonka_dannie">
-        <input type="text" name="name" class="form__field popup-form__field" placeholder="Ваше имя">
-        <input type="text" name="phone" class="form__field popup-form__field telephonetext" placeholder="+7 (___) ___-__-__">
-        <label class="popup-form-label">
-            <input class="check_priv" type="checkbox" class="agree" checked="checked">Я <a target="_blank" href="/solasiepersdata.pdf">согласен</a>
-            на обработку персональных данных
-        </label>
-        <button class="pink-btn popup-form__btn form__btn">Заказать звонок</button>
-    </form>
+	<p class="popup__title">Связаться со специалистом</p>
+	<form class="popup-form form" data-neiros="" data-yandex-goal="zakaz_zvonka_dannie">
+            <input type="text" name="name" class="form__field popup-form__field" placeholder="Ваше имя">
+            <input type="text" name="phone" class="form__field popup-form__field telephonetext" placeholder="+7 (___) ___-__-__">
+            <label class="popup-form-label">
+                <input class="check_priv" type="checkbox" class="agree" checked="checked">Я <a target="_blank" href="/solasiepersdata.pdf">согласен</a>
+                на обработку персональных данных
+            </label>
+            <button class="pink-btn popup-form__btn form__btn">Заказать звонок</button>
+        </form>
 </div>
 <div class="modal" id="zapis">
     <p class="popup__title">Связаться со специалистом</p>
@@ -1028,6 +1028,42 @@
             на обработку персональных данных
         </label>
         <button class="pink-btn popup-form__btn form__btn">Купить проект</button>
+    </form>
+</div>
+<div class="modal" id="consult-build">
+    <p class="popup__title">Консультация по строительству</p>
+    <form class="popup-form form" data-neiros="" data-yandex-goal="zakaz_zvonka_dannie">
+        <input type="text" name="name" class="form__field popup-form__field" placeholder="Ваше имя">
+        <input type="text" name="phone" class="form__field popup-form__field telephonetext" placeholder="+7 (___) ___-__-__">
+        <label class="popup-form-label">
+            <input class="check_priv" type="checkbox" class="agree" checked="checked">Я <a target="_blank" href="/solasiepersdata.pdf">согласен</a>
+            на обработку персональных данных
+        </label>
+        <button class="pink-btn popup-form__btn form__btn">Консультация по строительству</button>
+    </form>
+</div>
+<div class="modal" id="zapisatsya">
+    <p class="popup__title">Записаться</p>
+    <form class="popup-form form" data-neiros="" data-yandex-goal="zakaz_zvonka_dannie">
+        <input type="text" name="name" class="form__field popup-form__field" placeholder="Ваше имя">
+        <input type="text" name="phone" class="form__field popup-form__field telephonetext" placeholder="+7 (___) ___-__-__">
+        <label class="popup-form-label">
+            <input class="check_priv" type="checkbox" class="agree" checked="checked">Я <a target="_blank" href="/solasiepersdata.pdf">согласен</a>
+            на обработку персональных данных
+        </label>
+        <button class="pink-btn popup-form__btn form__btn">Получить консультацию</button>
+    </form>
+</div>
+<div class="modal" id="consult">
+    <p class="popup__title">Получить консультацию</p>
+    <form class="popup-form form" data-neiros="" data-yandex-goal="zakaz_zvonka_dannie">
+        <input type="text" name="name" class="form__field popup-form__field" placeholder="Ваше имя">
+        <input type="text" name="phone" class="form__field popup-form__field telephonetext" placeholder="+7 (___) ___-__-__">
+        <label class="popup-form-label">
+            <input class="check_priv" type="checkbox" class="agree" checked="checked">Я <a target="_blank" href="/solasiepersdata.pdf">согласен</a>
+            на обработку персональных данных
+        </label>
+        <button class="pink-btn popup-form__btn form__btn">Получить консультацию</button>
     </form>
 </div>
 <!--Modals-->
