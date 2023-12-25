@@ -8,6 +8,6 @@
 9. https://arhion71.github.io/Optima/about-company.html
 10. https://arhion71.github.io/Optima/otzivi-klientov-o-kompanii-detail.html
 11. https://arhion71.github.io/Optima/otzivi-klientov-o-kompanii.html
-12. https://arhion71.github.io/Optima/servis-polnogo-cikla.html
+12. https://arhion71.github.io/Optima/proekti-domov.html
 13. https://arhion71.github.io/Optima/tseny.html
 15. https://arhion71.github.io/Optima/energoeffektivnyy-house.html
