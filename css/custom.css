@@ -18,7 +18,12 @@
 
 /**/
 
-
+.sidebar-fiter{
+    display: block;
+}
+.sidebar-input{
+    width: 100%;
+}
 .general-title {
     margin-top: 42px;
 }
@@ -973,6 +978,12 @@ main ul span {
     background: url('../images/form-block-bg-1.jpg') no-repeat center top;
     background-size: cover;
 }
+.form-all-projects {
+    background: url('../images/form-block-bg-2.jpg') no-repeat center top;
+    background-size: cover;
+    padding-top: 71px;
+    padding-bottom: 85px;
+}
 .page-about__history-title {
     position: relative;
     font-size: 50px;
@@ -983,6 +994,13 @@ main ul span {
     overflow: hidden;
     margin: 0 auto;
 }
+
+.form-olga{
+    background: url(https://www.spb-optima.ru/magnit-files/catalog-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0;
+}
 .page-about__history-title::before {
     left: 50%;
     margin-left: -61px;
@@ -992,6 +1010,68 @@ main ul span {
     width: 122px;
     height: 12px;
     bottom: 0;
+}
+#optimaLeadMagnet12OlgaPhoto {
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+#optimaLeadMagnet12CatalogPic {
+    right: 0;
+    bottom: -50px;
+    position: absolute;
+}
+#optimaLeadMagnet12PhotoLabel {
+    position: absolute;
+    right: -100px;
+    top: 160px;
+    width: 200px;
+}
+.optimaLeadMagnet12RightItem {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+.optimaLeadMagnet12Icon {
+    width: 100px;
+    text-align: left;
+}
+#optimaLeadMagnet12SecondRightHeader {
+    font-weight: 900;
+}
+#optimaLeadMagnet12Name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #00A4D6;
+}
+.form-olga-title {
+    font-size: 50px;
+    line-height: 60px;
+    padding: 150px 0 40px 0;
+    font-weight: 400;
+}
+.form-olga-title span {
+    color: #00A4D6;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.uk-margin-top {
+    margin-top: 20px!important;
+}
+#optimaLeadMagnet12SecondRight {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+#optimaLeadMagnet12Photo {
+    position: relative;
+    align-self: flex-end;
+    height: 500px;
+    
 }
 .page-about__history {
     background-image: url('../images/timeline222.jpg');
